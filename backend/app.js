@@ -6,10 +6,13 @@ app.get("/", (req, res) =>{
     res.send("Running the Task Manager Get Operation");
 })
 
+app.get ("/api", (req, res) =>{
+    res.send([1,2,3,4]);
+})
+
 app.get("/api/tasks", (req,res) =>{
     res.send("Will show the tasks here soon inshAllah");
 })
-
 
 
 
